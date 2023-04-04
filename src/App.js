@@ -342,7 +342,7 @@ function App() {
       // Load posenet
       const net = await posenet.load({
         inputResolution: { width: 640, height: 480 },
-        scale: 0.9,
+        scale: 0.4,
       });
 
       // Start webcam
