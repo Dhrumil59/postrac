@@ -373,8 +373,8 @@ function App() {
           const ctx = canvasRef.current.getContext("2d");
           canvasRef.current.width = videoWidth;
           canvasRef.current.height = videoHeight;
-          drawKeypoints(pose["keypoints"], 0.4, ctx);
-          drawSkeleton(pose["keypoints"], 0.4, ctx);
+          drawKeypoints(pose["keypoints"], 0.2, ctx);
+          drawSkeleton(pose["keypoints"], 0.2, ctx);
         }
 
         // Request next frame
